@@ -1,0 +1,9 @@
+,individual,ensemble
+catboost_wage,"{'train_rmse': np.float64(87.71236394957809), 'test_rmse': np.float64(117.3639671860102), 'train_mae': 44.772580508225396, 'test_mae': 57.58030255145227, 'train_r2': 0.8321171382213479, 'test_r2': 0.6857945039653277}",
+xgb_wage,"{'train_rmse': np.float64(45.33822556663782), 'test_rmse': np.float64(134.8729808036189), 'train_mae': 28.953206947424192, 'test_mae': 62.161122484248736, 'train_r2': 0.9551446995947306, 'test_r2': 0.5850515692070032}",
+lgb_wage,"{'train_rmse': np.float64(95.9900376769187), 'test_rmse': np.float64(119.91653607569181), 'train_mae': 44.33225072714749, 'test_mae': 60.439814244934226, 'train_r2': 0.7989347324164288, 'test_r2': 0.6719784588909667}",
+xgb_satisfaction,"{'train_accuracy': 0.9039360505334945, 'test_accuracy': 0.6658117466016927}",
+catboost_satisfaction,"{'train_accuracy': 0.7344965167385213, 'test_accuracy': 0.6750021373001625}",
+lgb_satisfaction,"{'train_accuracy': 0.7845618497271387, 'test_accuracy': 0.669017696845345}",
+wage,,"{'train_rmse': np.float64(72.74815851166883), 'test_rmse': np.float64(118.89158173395488), 'train_mae': 38.56689526786831, 'test_mae': 58.34915929012137, 'train_r2': 0.88451415916403, 'test_r2': 0.6775618470341347}"
+satisfaction,,"{'train_accuracy': 0.8183742916436662, 'test_accuracy': 0.6715824570402668}"

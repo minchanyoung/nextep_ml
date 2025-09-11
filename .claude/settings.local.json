@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Read(//c/**)",
+      "Bash(pip install:*)",
+      "Bash(/bashes)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

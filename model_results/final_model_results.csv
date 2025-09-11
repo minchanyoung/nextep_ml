@@ -1,0 +1,9 @@
+,individual,ensemble
+catboost_wage,"{'rmse': np.float64(120.13126627086268), 'mae': 59.635960268843796, 'r2': 0.6684230404374218}",
+xgb_wage,"{'rmse': np.float64(121.4129294972212), 'mae': 63.521105390538054, 'r2': 0.6613102049372817}",
+lgb_wage,"{'rmse': np.float64(123.49606847453828), 'mae': 63.165360825847344, 'r2': 0.6495883802540103}",
+xgb_satisfaction,{'accuracy': 0.65835734870317},
+catboost_satisfaction,{'accuracy': 0.6708933717579251},
+lgb_satisfaction,{'accuracy': 0.6510086455331412},
+wage,,"{'rmse': np.float64(119.16823466209202), 'mae': 60.54732753942727, 'r2': 0.6737179015144952}"
+satisfaction,,{'accuracy': 0.6646974063400576}

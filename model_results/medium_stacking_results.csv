@@ -1,0 +1,2 @@
+sample_size,wage_rmse,wage_mae,wage_r2,sat_accuracy,training_time,recommendation
+30000,105.10707991462756,56.06151989045785,0.7177165962976166,0.6702924824752235,69.89993619918823,SUCCESS

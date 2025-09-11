@@ -1,0 +1,3639 @@
+{
+  "job_selection": {
+    "groups": [
+      {
+        "group_id": "IT_정보통신",
+        "group_name": "IT·정보통신",
+        "icon": "💻",
+        "description": "정보기술, 소프트웨어, 통신 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "소프트웨어개발",
+            "subcategory_name": "소프트웨어개발",
+            "jobs": [
+              "소프트웨어 개발자",
+              "웹 개발자",
+              "앱 개발자",
+              "게임 개발자"
+            ]
+          },
+          {
+            "subcategory_id": "IT기획관리",
+            "subcategory_name": "IT기획관리",
+            "jobs": [
+              "IT 기획자",
+              "프로젝트 매니저",
+              "시스템 분석가"
+            ]
+          },
+          {
+            "subcategory_id": "네트워크시스템",
+            "subcategory_name": "네트워크시스템",
+            "jobs": [
+              "시스템 관리자",
+              "네트워크 관리자",
+              "보안 관리자"
+            ]
+          },
+          {
+            "subcategory_id": "IT지원",
+            "subcategory_name": "IT지원",
+            "jobs": [
+              "기술지원",
+              "QA 엔지니어",
+              "IT 컨설턴트"
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "금융_보험",
+        "group_name": "금융·보험",
+        "icon": "🏦",
+        "description": "은행, 보험, 증권, 투자 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "은행업무",
+            "subcategory_name": "은행업무",
+            "jobs": [
+              "은행원",
+              "대출 상담사",
+              "외환 담당자"
+            ]
+          },
+          {
+            "subcategory_id": "보험업무",
+            "subcategory_name": "보험업무",
+            "jobs": [
+              "보험설계사",
+              "손해사정사",
+              "보험 언더라이터"
+            ]
+          },
+          {
+            "subcategory_id": "증권투자",
+            "subcategory_name": "증권투자",
+            "jobs": [
+              "증권 브로커",
+              "투자상담사",
+              "펀드매니저",
+              "애널리스트"
+            ]
+          },
+          {
+            "subcategory_id": "금융기획",
+            "subcategory_name": "금융기획",
+            "jobs": [
+              "금융 기획자",
+              "리스크 관리자",
+              "신용분석가"
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "의료_보건",
+        "group_name": "의료·보건",
+        "icon": "🏥",
+        "description": "의료진, 간호, 의료기사, 보건 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "의료진",
+            "subcategory_name": "의료진",
+            "jobs": [
+              "의사",
+              "치과의사",
+              "한의사",
+              "수의사"
+            ]
+          },
+          {
+            "subcategory_id": "간호",
+            "subcategory_name": "간호",
+            "jobs": [
+              "간호사",
+              "간호조무사"
+            ]
+          },
+          {
+            "subcategory_id": "의료기사",
+            "subcategory_name": "의료기사",
+            "jobs": [
+              "방사선사",
+              "임상병리사",
+              "물리치료사",
+              "작업치료사"
+            ]
+          },
+          {
+            "subcategory_id": "약료",
+            "subcategory_name": "약료",
+            "jobs": [
+              "약사",
+              "한약사"
+            ]
+          },
+          {
+            "subcategory_id": "보건관리",
+            "subcategory_name": "보건관리",
+            "jobs": [
+              "보건관리자",
+              "영양사",
+              "위생사"
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "교육",
+        "group_name": "교육",
+        "icon": "📚",
+        "description": "교사, 교수, 강사, 교육 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "초중고교육",
+            "subcategory_name": "초중고교육",
+            "jobs": [
+              "초등교사",
+              "중학교사",
+              "고등학교사",
+              "특수교사"
+            ]
+          },
+          {
+            "subcategory_id": "고등교육",
+            "subcategory_name": "고등교육",
+            "jobs": [
+              "대학교수",
+              "전문대 교수",
+              "연구교수"
+            ]
+          },
+          {
+            "subcategory_id": "직업교육",
+            "subcategory_name": "직업교육",
+            "jobs": [
+              "직업훈련교사",
+              "기술교육교사",
+              "평생교육사"
+            ]
+          },
+          {
+            "subcategory_id": "교육지원",
+            "subcategory_name": "교육지원",
+            "jobs": [
+              "교육행정가",
+              "상담교사",
+              "사서"
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "제조업",
+        "group_name": "제조업",
+        "icon": "🏭",
+        "description": "제조, 생산, 품질관리, 기술 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "생산관리",
+            "subcategory_name": "생산관리",
+            "jobs": [
+              "생산관리자",
+              "품질관리자",
+              "공장장"
+            ]
+          },
+          {
+            "subcategory_id": "기술연구",
+            "subcategory_name": "기술연구",
+            "jobs": [
+              "연구개발자",
+              "기술자",
+              "설계자"
+            ]
+          },
+          {
+            "subcategory_id": "생산직",
+            "subcategory_name": "생산직",
+            "jobs": [
+              "조립원",
+              "기계조작원",
+              "검사원"
+            ]
+          },
+          {
+            "subcategory_id": "기능직",
+            "subcategory_name": "기능직",
+            "jobs": [
+              "용접공",
+              "선반공",
+              "도장공",
+              "전기공"
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "건설_건축",
+        "group_name": "건설·건축",
+        "icon": "🏗️",
+        "description": "건설, 건축, 토목, 설비 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "건축설계",
+            "subcategory_name": "건축설계",
+            "jobs": [
+              "건축사",
+              "건축설계사",
+              "구조설계사"
+            ]
+          },
+          {
+            "subcategory_id": "토목설계",
+            "subcategory_name": "토목설계",
+            "jobs": [
+              "토목기술자",
+              "측량기술자",
+              "도시계획가"
+            ]
+          },
+          {
+            "subcategory_id": "건설시공",
+            "subcategory_name": "건설시공",
+            "jobs": [
+              "현장소장",
+              "공사감독",
+              "안전관리자"
+            ]
+          },
+          {
+            "subcategory_id": "건설기능",
+            "subcategory_name": "건설기능",
+            "jobs": [
+              "목수",
+              "철근공",
+              "타일공",
+              "미장공",
+              "도배공"
+            ]
+          },
+          {
+            "subcategory_id": "건설장비",
+            "subcategory_name": "건설장비",
+            "jobs": [
+              "굴삭기 운전원",
+              "크레인 운전원",
+              "덤프트럭 운전원"
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "유통_판매",
+        "group_name": "유통·판매",
+        "icon": "🛒",
+        "description": "도소매, 영업, 마케팅, 판매 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "영업",
+            "subcategory_name": "영업",
+            "jobs": [
+              "영업사원",
+              "영업관리자",
+              "세ール즈"
+            ]
+          },
+          {
+            "subcategory_id": "판매",
+            "subcategory_name": "판매",
+            "jobs": [
+              "판매원",
+              "매장관리자",
+              "캐셔"
+            ]
+          },
+          {
+            "subcategory_id": "마케팅",
+            "subcategory_name": "마케팅",
+            "jobs": [
+              "마케팅 기획자",
+              "광고 기획자",
+              "브랜드 매니저"
+            ]
+          },
+          {
+            "subcategory_id": "유통관리",
+            "subcategory_name": "유통관리",
+            "jobs": [
+              "유통관리자",
+              "물류관리자",
+              "구매담당자"
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "공공행정",
+        "group_name": "공공행정",
+        "icon": "🏛️",
+        "description": "공무원, 공공기관, 정부 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "행정공무원",
+            "subcategory_name": "행정공무원",
+            "jobs": [
+              "일반행정직",
+              "재무직",
+              "인사직"
+            ]
+          },
+          {
+            "subcategory_id": "기술공무원",
+            "subcategory_name": "기술공무원",
+            "jobs": [
+              "토목직",
+              "건축직",
+              "전산직",
+              "환경직"
+            ]
+          },
+          {
+            "subcategory_id": "전문공무원",
+            "subcategory_name": "전문공무원",
+            "jobs": [
+              "외교관",
+              "검사",
+              "판사",
+              "경찰관"
+            ]
+          },
+          {
+            "subcategory_id": "공공서비스",
+            "subcategory_name": "공공서비스",
+            "jobs": [
+              "사회복지공무원",
+              "보건공무원",
+              "교육공무원"
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "운송_물류",
+        "group_name": "운송·물류",
+        "icon": "🚚",
+        "description": "운송, 배송, 물류, 교통 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "육상운송",
+            "subcategory_name": "육상운송",
+            "jobs": [
+              "택시기사",
+              "버스기사",
+              "트럭기사"
+            ]
+          },
+          {
+            "subcategory_id": "물류창고",
+            "subcategory_name": "물류창고",
+            "jobs": [
+              "물류관리자",
+              "창고관리자",
+              "하역작업원"
+            ]
+          },
+          {
+            "subcategory_id": "배송서비스",
+            "subcategory_name": "배송서비스",
+            "jobs": [
+              "택배기사",
+              "배달원",
+              "퀵서비스"
+            ]
+          },
+          {
+            "subcategory_id": "교통관제",
+            "subcategory_name": "교통관제",
+            "jobs": [
+              "교통관제사",
+              "운송기획자",
+              "물류기획자"
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "음식_숙박",
+        "group_name": "음식·숙박",
+        "icon": "🍴",
+        "description": "요리, 서빙, 호텔, 관광 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "조리",
+            "subcategory_name": "조리",
+            "jobs": [
+              "한식조리사",
+              "양식조리사",
+              "중식조리사",
+              "일식조리사"
+            ]
+          },
+          {
+            "subcategory_id": "서빙",
+            "subcategory_name": "서빙",
+            "jobs": [
+              "웨이터",
+              "바리스타",
+              "바텐더",
+              "홀매니저"
+            ]
+          },
+          {
+            "subcategory_id": "호텔",
+            "subcategory_name": "호텔",
+            "jobs": [
+              "호텔리어",
+              "프론트",
+              "하우스키핑",
+              "컨시어지"
+            ]
+          },
+          {
+            "subcategory_id": "관광",
+            "subcategory_name": "관광",
+            "jobs": [
+              "여행가이드",
+              "관광기획자",
+              "여행상품기획자"
+            ]
+          }
+        ]
+      },
+      {
+        "group_id": "농림어업",
+        "group_name": "농림어업",
+        "icon": "🌾",
+        "description": "농업, 임업, 어업, 축산업 관련 직업",
+        "subcategories": [
+          {
+            "subcategory_id": "농업",
+            "subcategory_name": "농업",
+            "jobs": [
+              "농업인",
+              "농장관리자",
+              "작물재배자"
+            ]
+          },
+          {
+            "subcategory_id": "축산업",
+            "subcategory_name": "축산업",
+            "jobs": [
+              "축산업자",
+              "목장관리자",
+              "사육사"
+            ]
+          },
+          {
+            "subcategory_id": "임업",
+            "subcategory_name": "임업",
+            "jobs": [
+              "임업인",
+              "산림관리자",
+              "조경사"
+            ]
+          },
+          {
+            "subcategory_id": "어업",
+            "subcategory_name": "어업",
+            "jobs": [
+              "어업인",
+              "양식업자",
+              "선원"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "search_index": {
+    "소프트웨어": [
+      {
+        "job_name": "소프트웨어 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      }
+    ],
+    "개발자": [
+      {
+        "job_name": "소프트웨어 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      },
+      {
+        "job_name": "웹 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      },
+      {
+        "job_name": "앱 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      },
+      {
+        "job_name": "게임 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      }
+    ],
+    "it·정보통신": [
+      {
+        "job_name": "소프트웨어 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      },
+      {
+        "job_name": "웹 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      },
+      {
+        "job_name": "앱 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      },
+      {
+        "job_name": "게임 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      },
+      {
+        "job_name": "IT 기획자",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      },
+      {
+        "job_name": "프로젝트 매니저",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      },
+      {
+        "job_name": "시스템 분석가",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      },
+      {
+        "job_name": "시스템 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      },
+      {
+        "job_name": "네트워크 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      },
+      {
+        "job_name": "보안 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      },
+      {
+        "job_name": "기술지원",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      },
+      {
+        "job_name": "QA 엔지니어",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      },
+      {
+        "job_name": "IT 컨설턴트",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      }
+    ],
+    "소프트웨어개발": [
+      {
+        "job_name": "소프트웨어 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      },
+      {
+        "job_name": "웹 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      },
+      {
+        "job_name": "앱 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      },
+      {
+        "job_name": "게임 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      }
+    ],
+    "웹": [
+      {
+        "job_name": "웹 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      }
+    ],
+    "앱": [
+      {
+        "job_name": "앱 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      }
+    ],
+    "게임": [
+      {
+        "job_name": "게임 개발자",
+        "group": "IT·정보통신",
+        "subcategory": "소프트웨어개발"
+      }
+    ],
+    "it": [
+      {
+        "job_name": "IT 기획자",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      },
+      {
+        "job_name": "IT 컨설턴트",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      }
+    ],
+    "기획자": [
+      {
+        "job_name": "IT 기획자",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      },
+      {
+        "job_name": "금융 기획자",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      },
+      {
+        "job_name": "마케팅 기획자",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      },
+      {
+        "job_name": "광고 기획자",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      }
+    ],
+    "it기획관리": [
+      {
+        "job_name": "IT 기획자",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      },
+      {
+        "job_name": "프로젝트 매니저",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      },
+      {
+        "job_name": "시스템 분석가",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      }
+    ],
+    "프로젝트": [
+      {
+        "job_name": "프로젝트 매니저",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      }
+    ],
+    "매니저": [
+      {
+        "job_name": "프로젝트 매니저",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      },
+      {
+        "job_name": "브랜드 매니저",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      }
+    ],
+    "시스템": [
+      {
+        "job_name": "시스템 분석가",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      },
+      {
+        "job_name": "시스템 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      }
+    ],
+    "분석가": [
+      {
+        "job_name": "시스템 분석가",
+        "group": "IT·정보통신",
+        "subcategory": "IT기획관리"
+      }
+    ],
+    "관리자": [
+      {
+        "job_name": "시스템 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      },
+      {
+        "job_name": "네트워크 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      },
+      {
+        "job_name": "보안 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      },
+      {
+        "job_name": "리스크 관리자",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      }
+    ],
+    "네트워크시스템": [
+      {
+        "job_name": "시스템 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      },
+      {
+        "job_name": "네트워크 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      },
+      {
+        "job_name": "보안 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      }
+    ],
+    "네트워크": [
+      {
+        "job_name": "네트워크 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      }
+    ],
+    "보안": [
+      {
+        "job_name": "보안 관리자",
+        "group": "IT·정보통신",
+        "subcategory": "네트워크시스템"
+      }
+    ],
+    "기술지원": [
+      {
+        "job_name": "기술지원",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      }
+    ],
+    "it지원": [
+      {
+        "job_name": "기술지원",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      },
+      {
+        "job_name": "QA 엔지니어",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      },
+      {
+        "job_name": "IT 컨설턴트",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      }
+    ],
+    "qa": [
+      {
+        "job_name": "QA 엔지니어",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      }
+    ],
+    "엔지니어": [
+      {
+        "job_name": "QA 엔지니어",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      }
+    ],
+    "컨설턴트": [
+      {
+        "job_name": "IT 컨설턴트",
+        "group": "IT·정보통신",
+        "subcategory": "IT지원"
+      }
+    ],
+    "은행원": [
+      {
+        "job_name": "은행원",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      }
+    ],
+    "금융·보험": [
+      {
+        "job_name": "은행원",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      },
+      {
+        "job_name": "대출 상담사",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      },
+      {
+        "job_name": "외환 담당자",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      },
+      {
+        "job_name": "보험설계사",
+        "group": "금융·보험",
+        "subcategory": "보험업무"
+      },
+      {
+        "job_name": "손해사정사",
+        "group": "금융·보험",
+        "subcategory": "보험업무"
+      },
+      {
+        "job_name": "보험 언더라이터",
+        "group": "금융·보험",
+        "subcategory": "보험업무"
+      },
+      {
+        "job_name": "증권 브로커",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      },
+      {
+        "job_name": "투자상담사",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      },
+      {
+        "job_name": "펀드매니저",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      },
+      {
+        "job_name": "애널리스트",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      },
+      {
+        "job_name": "금융 기획자",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      },
+      {
+        "job_name": "리스크 관리자",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      },
+      {
+        "job_name": "신용분석가",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      }
+    ],
+    "은행업무": [
+      {
+        "job_name": "은행원",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      },
+      {
+        "job_name": "대출 상담사",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      },
+      {
+        "job_name": "외환 담당자",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      }
+    ],
+    "대출": [
+      {
+        "job_name": "대출 상담사",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      }
+    ],
+    "상담사": [
+      {
+        "job_name": "대출 상담사",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      }
+    ],
+    "외환": [
+      {
+        "job_name": "외환 담당자",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      }
+    ],
+    "담당자": [
+      {
+        "job_name": "외환 담당자",
+        "group": "금융·보험",
+        "subcategory": "은행업무"
+      }
+    ],
+    "보험설계사": [
+      {
+        "job_name": "보험설계사",
+        "group": "금융·보험",
+        "subcategory": "보험업무"
+      }
+    ],
+    "보험업무": [
+      {
+        "job_name": "보험설계사",
+        "group": "금융·보험",
+        "subcategory": "보험업무"
+      },
+      {
+        "job_name": "손해사정사",
+        "group": "금융·보험",
+        "subcategory": "보험업무"
+      },
+      {
+        "job_name": "보험 언더라이터",
+        "group": "금융·보험",
+        "subcategory": "보험업무"
+      }
+    ],
+    "손해사정사": [
+      {
+        "job_name": "손해사정사",
+        "group": "금융·보험",
+        "subcategory": "보험업무"
+      }
+    ],
+    "보험": [
+      {
+        "job_name": "보험 언더라이터",
+        "group": "금융·보험",
+        "subcategory": "보험업무"
+      }
+    ],
+    "언더라이터": [
+      {
+        "job_name": "보험 언더라이터",
+        "group": "금융·보험",
+        "subcategory": "보험업무"
+      }
+    ],
+    "증권": [
+      {
+        "job_name": "증권 브로커",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      }
+    ],
+    "브로커": [
+      {
+        "job_name": "증권 브로커",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      }
+    ],
+    "증권투자": [
+      {
+        "job_name": "증권 브로커",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      },
+      {
+        "job_name": "투자상담사",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      },
+      {
+        "job_name": "펀드매니저",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      },
+      {
+        "job_name": "애널리스트",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      }
+    ],
+    "투자상담사": [
+      {
+        "job_name": "투자상담사",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      }
+    ],
+    "펀드매니저": [
+      {
+        "job_name": "펀드매니저",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      }
+    ],
+    "애널리스트": [
+      {
+        "job_name": "애널리스트",
+        "group": "금융·보험",
+        "subcategory": "증권투자"
+      }
+    ],
+    "금융": [
+      {
+        "job_name": "금융 기획자",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      }
+    ],
+    "금융기획": [
+      {
+        "job_name": "금융 기획자",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      },
+      {
+        "job_name": "리스크 관리자",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      },
+      {
+        "job_name": "신용분석가",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      }
+    ],
+    "리스크": [
+      {
+        "job_name": "리스크 관리자",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      }
+    ],
+    "신용분석가": [
+      {
+        "job_name": "신용분석가",
+        "group": "금융·보험",
+        "subcategory": "금융기획"
+      }
+    ],
+    "의사": [
+      {
+        "job_name": "의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      }
+    ],
+    "의료·보건": [
+      {
+        "job_name": "의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      },
+      {
+        "job_name": "치과의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      },
+      {
+        "job_name": "한의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      },
+      {
+        "job_name": "수의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      },
+      {
+        "job_name": "간호사",
+        "group": "의료·보건",
+        "subcategory": "간호"
+      },
+      {
+        "job_name": "간호조무사",
+        "group": "의료·보건",
+        "subcategory": "간호"
+      },
+      {
+        "job_name": "방사선사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      },
+      {
+        "job_name": "임상병리사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      },
+      {
+        "job_name": "물리치료사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      },
+      {
+        "job_name": "작업치료사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      },
+      {
+        "job_name": "약사",
+        "group": "의료·보건",
+        "subcategory": "약료"
+      },
+      {
+        "job_name": "한약사",
+        "group": "의료·보건",
+        "subcategory": "약료"
+      },
+      {
+        "job_name": "보건관리자",
+        "group": "의료·보건",
+        "subcategory": "보건관리"
+      },
+      {
+        "job_name": "영양사",
+        "group": "의료·보건",
+        "subcategory": "보건관리"
+      },
+      {
+        "job_name": "위생사",
+        "group": "의료·보건",
+        "subcategory": "보건관리"
+      }
+    ],
+    "의료진": [
+      {
+        "job_name": "의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      },
+      {
+        "job_name": "치과의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      },
+      {
+        "job_name": "한의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      },
+      {
+        "job_name": "수의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      }
+    ],
+    "치과의사": [
+      {
+        "job_name": "치과의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      }
+    ],
+    "한의사": [
+      {
+        "job_name": "한의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      }
+    ],
+    "수의사": [
+      {
+        "job_name": "수의사",
+        "group": "의료·보건",
+        "subcategory": "의료진"
+      }
+    ],
+    "간호사": [
+      {
+        "job_name": "간호사",
+        "group": "의료·보건",
+        "subcategory": "간호"
+      }
+    ],
+    "간호": [
+      {
+        "job_name": "간호사",
+        "group": "의료·보건",
+        "subcategory": "간호"
+      },
+      {
+        "job_name": "간호조무사",
+        "group": "의료·보건",
+        "subcategory": "간호"
+      }
+    ],
+    "간호조무사": [
+      {
+        "job_name": "간호조무사",
+        "group": "의료·보건",
+        "subcategory": "간호"
+      }
+    ],
+    "방사선사": [
+      {
+        "job_name": "방사선사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      }
+    ],
+    "의료기사": [
+      {
+        "job_name": "방사선사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      },
+      {
+        "job_name": "임상병리사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      },
+      {
+        "job_name": "물리치료사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      },
+      {
+        "job_name": "작업치료사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      }
+    ],
+    "임상병리사": [
+      {
+        "job_name": "임상병리사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      }
+    ],
+    "물리치료사": [
+      {
+        "job_name": "물리치료사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      }
+    ],
+    "작업치료사": [
+      {
+        "job_name": "작업치료사",
+        "group": "의료·보건",
+        "subcategory": "의료기사"
+      }
+    ],
+    "약사": [
+      {
+        "job_name": "약사",
+        "group": "의료·보건",
+        "subcategory": "약료"
+      }
+    ],
+    "약료": [
+      {
+        "job_name": "약사",
+        "group": "의료·보건",
+        "subcategory": "약료"
+      },
+      {
+        "job_name": "한약사",
+        "group": "의료·보건",
+        "subcategory": "약료"
+      }
+    ],
+    "한약사": [
+      {
+        "job_name": "한약사",
+        "group": "의료·보건",
+        "subcategory": "약료"
+      }
+    ],
+    "보건관리자": [
+      {
+        "job_name": "보건관리자",
+        "group": "의료·보건",
+        "subcategory": "보건관리"
+      }
+    ],
+    "보건관리": [
+      {
+        "job_name": "보건관리자",
+        "group": "의료·보건",
+        "subcategory": "보건관리"
+      },
+      {
+        "job_name": "영양사",
+        "group": "의료·보건",
+        "subcategory": "보건관리"
+      },
+      {
+        "job_name": "위생사",
+        "group": "의료·보건",
+        "subcategory": "보건관리"
+      }
+    ],
+    "영양사": [
+      {
+        "job_name": "영양사",
+        "group": "의료·보건",
+        "subcategory": "보건관리"
+      }
+    ],
+    "위생사": [
+      {
+        "job_name": "위생사",
+        "group": "의료·보건",
+        "subcategory": "보건관리"
+      }
+    ],
+    "초등교사": [
+      {
+        "job_name": "초등교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      }
+    ],
+    "교육": [
+      {
+        "job_name": "초등교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      },
+      {
+        "job_name": "중학교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      },
+      {
+        "job_name": "고등학교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      },
+      {
+        "job_name": "특수교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      },
+      {
+        "job_name": "대학교수",
+        "group": "교육",
+        "subcategory": "고등교육"
+      },
+      {
+        "job_name": "전문대 교수",
+        "group": "교육",
+        "subcategory": "고등교육"
+      },
+      {
+        "job_name": "연구교수",
+        "group": "교육",
+        "subcategory": "고등교육"
+      },
+      {
+        "job_name": "직업훈련교사",
+        "group": "교육",
+        "subcategory": "직업교육"
+      },
+      {
+        "job_name": "기술교육교사",
+        "group": "교육",
+        "subcategory": "직업교육"
+      },
+      {
+        "job_name": "평생교육사",
+        "group": "교육",
+        "subcategory": "직업교육"
+      },
+      {
+        "job_name": "교육행정가",
+        "group": "교육",
+        "subcategory": "교육지원"
+      },
+      {
+        "job_name": "상담교사",
+        "group": "교육",
+        "subcategory": "교육지원"
+      },
+      {
+        "job_name": "사서",
+        "group": "교육",
+        "subcategory": "교육지원"
+      }
+    ],
+    "초중고교육": [
+      {
+        "job_name": "초등교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      },
+      {
+        "job_name": "중학교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      },
+      {
+        "job_name": "고등학교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      },
+      {
+        "job_name": "특수교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      }
+    ],
+    "중학교사": [
+      {
+        "job_name": "중학교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      }
+    ],
+    "고등학교사": [
+      {
+        "job_name": "고등학교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      }
+    ],
+    "특수교사": [
+      {
+        "job_name": "특수교사",
+        "group": "교육",
+        "subcategory": "초중고교육"
+      }
+    ],
+    "대학교수": [
+      {
+        "job_name": "대학교수",
+        "group": "교육",
+        "subcategory": "고등교육"
+      }
+    ],
+    "고등교육": [
+      {
+        "job_name": "대학교수",
+        "group": "교육",
+        "subcategory": "고등교육"
+      },
+      {
+        "job_name": "전문대 교수",
+        "group": "교육",
+        "subcategory": "고등교육"
+      },
+      {
+        "job_name": "연구교수",
+        "group": "교육",
+        "subcategory": "고등교육"
+      }
+    ],
+    "전문대": [
+      {
+        "job_name": "전문대 교수",
+        "group": "교육",
+        "subcategory": "고등교육"
+      }
+    ],
+    "교수": [
+      {
+        "job_name": "전문대 교수",
+        "group": "교육",
+        "subcategory": "고등교육"
+      }
+    ],
+    "연구교수": [
+      {
+        "job_name": "연구교수",
+        "group": "교육",
+        "subcategory": "고등교육"
+      }
+    ],
+    "직업훈련교사": [
+      {
+        "job_name": "직업훈련교사",
+        "group": "교육",
+        "subcategory": "직업교육"
+      }
+    ],
+    "직업교육": [
+      {
+        "job_name": "직업훈련교사",
+        "group": "교육",
+        "subcategory": "직업교육"
+      },
+      {
+        "job_name": "기술교육교사",
+        "group": "교육",
+        "subcategory": "직업교육"
+      },
+      {
+        "job_name": "평생교육사",
+        "group": "교육",
+        "subcategory": "직업교육"
+      }
+    ],
+    "기술교육교사": [
+      {
+        "job_name": "기술교육교사",
+        "group": "교육",
+        "subcategory": "직업교육"
+      }
+    ],
+    "평생교육사": [
+      {
+        "job_name": "평생교육사",
+        "group": "교육",
+        "subcategory": "직업교육"
+      }
+    ],
+    "교육행정가": [
+      {
+        "job_name": "교육행정가",
+        "group": "교육",
+        "subcategory": "교육지원"
+      }
+    ],
+    "교육지원": [
+      {
+        "job_name": "교육행정가",
+        "group": "교육",
+        "subcategory": "교육지원"
+      },
+      {
+        "job_name": "상담교사",
+        "group": "교육",
+        "subcategory": "교육지원"
+      },
+      {
+        "job_name": "사서",
+        "group": "교육",
+        "subcategory": "교육지원"
+      }
+    ],
+    "상담교사": [
+      {
+        "job_name": "상담교사",
+        "group": "교육",
+        "subcategory": "교육지원"
+      }
+    ],
+    "사서": [
+      {
+        "job_name": "사서",
+        "group": "교육",
+        "subcategory": "교육지원"
+      }
+    ],
+    "생산관리자": [
+      {
+        "job_name": "생산관리자",
+        "group": "제조업",
+        "subcategory": "생산관리"
+      }
+    ],
+    "제조업": [
+      {
+        "job_name": "생산관리자",
+        "group": "제조업",
+        "subcategory": "생산관리"
+      },
+      {
+        "job_name": "품질관리자",
+        "group": "제조업",
+        "subcategory": "생산관리"
+      },
+      {
+        "job_name": "공장장",
+        "group": "제조업",
+        "subcategory": "생산관리"
+      },
+      {
+        "job_name": "연구개발자",
+        "group": "제조업",
+        "subcategory": "기술연구"
+      },
+      {
+        "job_name": "기술자",
+        "group": "제조업",
+        "subcategory": "기술연구"
+      },
+      {
+        "job_name": "설계자",
+        "group": "제조업",
+        "subcategory": "기술연구"
+      },
+      {
+        "job_name": "조립원",
+        "group": "제조업",
+        "subcategory": "생산직"
+      },
+      {
+        "job_name": "기계조작원",
+        "group": "제조업",
+        "subcategory": "생산직"
+      },
+      {
+        "job_name": "검사원",
+        "group": "제조업",
+        "subcategory": "생산직"
+      },
+      {
+        "job_name": "용접공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      },
+      {
+        "job_name": "선반공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      },
+      {
+        "job_name": "도장공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      },
+      {
+        "job_name": "전기공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      }
+    ],
+    "생산관리": [
+      {
+        "job_name": "생산관리자",
+        "group": "제조업",
+        "subcategory": "생산관리"
+      },
+      {
+        "job_name": "품질관리자",
+        "group": "제조업",
+        "subcategory": "생산관리"
+      },
+      {
+        "job_name": "공장장",
+        "group": "제조업",
+        "subcategory": "생산관리"
+      }
+    ],
+    "품질관리자": [
+      {
+        "job_name": "품질관리자",
+        "group": "제조업",
+        "subcategory": "생산관리"
+      }
+    ],
+    "공장장": [
+      {
+        "job_name": "공장장",
+        "group": "제조업",
+        "subcategory": "생산관리"
+      }
+    ],
+    "연구개발자": [
+      {
+        "job_name": "연구개발자",
+        "group": "제조업",
+        "subcategory": "기술연구"
+      }
+    ],
+    "기술연구": [
+      {
+        "job_name": "연구개발자",
+        "group": "제조업",
+        "subcategory": "기술연구"
+      },
+      {
+        "job_name": "기술자",
+        "group": "제조업",
+        "subcategory": "기술연구"
+      },
+      {
+        "job_name": "설계자",
+        "group": "제조업",
+        "subcategory": "기술연구"
+      }
+    ],
+    "기술자": [
+      {
+        "job_name": "기술자",
+        "group": "제조업",
+        "subcategory": "기술연구"
+      }
+    ],
+    "설계자": [
+      {
+        "job_name": "설계자",
+        "group": "제조업",
+        "subcategory": "기술연구"
+      }
+    ],
+    "조립원": [
+      {
+        "job_name": "조립원",
+        "group": "제조업",
+        "subcategory": "생산직"
+      }
+    ],
+    "생산직": [
+      {
+        "job_name": "조립원",
+        "group": "제조업",
+        "subcategory": "생산직"
+      },
+      {
+        "job_name": "기계조작원",
+        "group": "제조업",
+        "subcategory": "생산직"
+      },
+      {
+        "job_name": "검사원",
+        "group": "제조업",
+        "subcategory": "생산직"
+      }
+    ],
+    "기계조작원": [
+      {
+        "job_name": "기계조작원",
+        "group": "제조업",
+        "subcategory": "생산직"
+      }
+    ],
+    "검사원": [
+      {
+        "job_name": "검사원",
+        "group": "제조업",
+        "subcategory": "생산직"
+      }
+    ],
+    "용접공": [
+      {
+        "job_name": "용접공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      }
+    ],
+    "기능직": [
+      {
+        "job_name": "용접공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      },
+      {
+        "job_name": "선반공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      },
+      {
+        "job_name": "도장공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      },
+      {
+        "job_name": "전기공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      }
+    ],
+    "선반공": [
+      {
+        "job_name": "선반공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      }
+    ],
+    "도장공": [
+      {
+        "job_name": "도장공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      }
+    ],
+    "전기공": [
+      {
+        "job_name": "전기공",
+        "group": "제조업",
+        "subcategory": "기능직"
+      }
+    ],
+    "건축사": [
+      {
+        "job_name": "건축사",
+        "group": "건설·건축",
+        "subcategory": "건축설계"
+      }
+    ],
+    "건설·건축": [
+      {
+        "job_name": "건축사",
+        "group": "건설·건축",
+        "subcategory": "건축설계"
+      },
+      {
+        "job_name": "건축설계사",
+        "group": "건설·건축",
+        "subcategory": "건축설계"
+      },
+      {
+        "job_name": "구조설계사",
+        "group": "건설·건축",
+        "subcategory": "건축설계"
+      },
+      {
+        "job_name": "토목기술자",
+        "group": "건설·건축",
+        "subcategory": "토목설계"
+      },
+      {
+        "job_name": "측량기술자",
+        "group": "건설·건축",
+        "subcategory": "토목설계"
+      },
+      {
+        "job_name": "도시계획가",
+        "group": "건설·건축",
+        "subcategory": "토목설계"
+      },
+      {
+        "job_name": "현장소장",
+        "group": "건설·건축",
+        "subcategory": "건설시공"
+      },
+      {
+        "job_name": "공사감독",
+        "group": "건설·건축",
+        "subcategory": "건설시공"
+      },
+      {
+        "job_name": "안전관리자",
+        "group": "건설·건축",
+        "subcategory": "건설시공"
+      },
+      {
+        "job_name": "목수",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      },
+      {
+        "job_name": "철근공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      },
+      {
+        "job_name": "타일공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      },
+      {
+        "job_name": "미장공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      },
+      {
+        "job_name": "도배공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      },
+      {
+        "job_name": "굴삭기 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      },
+      {
+        "job_name": "크레인 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      },
+      {
+        "job_name": "덤프트럭 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      }
+    ],
+    "건축설계": [
+      {
+        "job_name": "건축사",
+        "group": "건설·건축",
+        "subcategory": "건축설계"
+      },
+      {
+        "job_name": "건축설계사",
+        "group": "건설·건축",
+        "subcategory": "건축설계"
+      },
+      {
+        "job_name": "구조설계사",
+        "group": "건설·건축",
+        "subcategory": "건축설계"
+      }
+    ],
+    "건축설계사": [
+      {
+        "job_name": "건축설계사",
+        "group": "건설·건축",
+        "subcategory": "건축설계"
+      }
+    ],
+    "구조설계사": [
+      {
+        "job_name": "구조설계사",
+        "group": "건설·건축",
+        "subcategory": "건축설계"
+      }
+    ],
+    "토목기술자": [
+      {
+        "job_name": "토목기술자",
+        "group": "건설·건축",
+        "subcategory": "토목설계"
+      }
+    ],
+    "토목설계": [
+      {
+        "job_name": "토목기술자",
+        "group": "건설·건축",
+        "subcategory": "토목설계"
+      },
+      {
+        "job_name": "측량기술자",
+        "group": "건설·건축",
+        "subcategory": "토목설계"
+      },
+      {
+        "job_name": "도시계획가",
+        "group": "건설·건축",
+        "subcategory": "토목설계"
+      }
+    ],
+    "측량기술자": [
+      {
+        "job_name": "측량기술자",
+        "group": "건설·건축",
+        "subcategory": "토목설계"
+      }
+    ],
+    "도시계획가": [
+      {
+        "job_name": "도시계획가",
+        "group": "건설·건축",
+        "subcategory": "토목설계"
+      }
+    ],
+    "현장소장": [
+      {
+        "job_name": "현장소장",
+        "group": "건설·건축",
+        "subcategory": "건설시공"
+      }
+    ],
+    "건설시공": [
+      {
+        "job_name": "현장소장",
+        "group": "건설·건축",
+        "subcategory": "건설시공"
+      },
+      {
+        "job_name": "공사감독",
+        "group": "건설·건축",
+        "subcategory": "건설시공"
+      },
+      {
+        "job_name": "안전관리자",
+        "group": "건설·건축",
+        "subcategory": "건설시공"
+      }
+    ],
+    "공사감독": [
+      {
+        "job_name": "공사감독",
+        "group": "건설·건축",
+        "subcategory": "건설시공"
+      }
+    ],
+    "안전관리자": [
+      {
+        "job_name": "안전관리자",
+        "group": "건설·건축",
+        "subcategory": "건설시공"
+      }
+    ],
+    "목수": [
+      {
+        "job_name": "목수",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      }
+    ],
+    "건설기능": [
+      {
+        "job_name": "목수",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      },
+      {
+        "job_name": "철근공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      },
+      {
+        "job_name": "타일공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      },
+      {
+        "job_name": "미장공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      },
+      {
+        "job_name": "도배공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      }
+    ],
+    "철근공": [
+      {
+        "job_name": "철근공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      }
+    ],
+    "타일공": [
+      {
+        "job_name": "타일공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      }
+    ],
+    "미장공": [
+      {
+        "job_name": "미장공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      }
+    ],
+    "도배공": [
+      {
+        "job_name": "도배공",
+        "group": "건설·건축",
+        "subcategory": "건설기능"
+      }
+    ],
+    "굴삭기": [
+      {
+        "job_name": "굴삭기 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      }
+    ],
+    "운전원": [
+      {
+        "job_name": "굴삭기 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      },
+      {
+        "job_name": "크레인 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      },
+      {
+        "job_name": "덤프트럭 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      }
+    ],
+    "건설장비": [
+      {
+        "job_name": "굴삭기 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      },
+      {
+        "job_name": "크레인 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      },
+      {
+        "job_name": "덤프트럭 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      }
+    ],
+    "크레인": [
+      {
+        "job_name": "크레인 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      }
+    ],
+    "덤프트럭": [
+      {
+        "job_name": "덤프트럭 운전원",
+        "group": "건설·건축",
+        "subcategory": "건설장비"
+      }
+    ],
+    "영업사원": [
+      {
+        "job_name": "영업사원",
+        "group": "유통·판매",
+        "subcategory": "영업"
+      }
+    ],
+    "유통·판매": [
+      {
+        "job_name": "영업사원",
+        "group": "유통·판매",
+        "subcategory": "영업"
+      },
+      {
+        "job_name": "영업관리자",
+        "group": "유통·판매",
+        "subcategory": "영업"
+      },
+      {
+        "job_name": "세ール즈",
+        "group": "유통·판매",
+        "subcategory": "영업"
+      },
+      {
+        "job_name": "판매원",
+        "group": "유통·판매",
+        "subcategory": "판매"
+      },
+      {
+        "job_name": "매장관리자",
+        "group": "유통·판매",
+        "subcategory": "판매"
+      },
+      {
+        "job_name": "캐셔",
+        "group": "유통·판매",
+        "subcategory": "판매"
+      },
+      {
+        "job_name": "마케팅 기획자",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      },
+      {
+        "job_name": "광고 기획자",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      },
+      {
+        "job_name": "브랜드 매니저",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      },
+      {
+        "job_name": "유통관리자",
+        "group": "유통·판매",
+        "subcategory": "유통관리"
+      },
+      {
+        "job_name": "물류관리자",
+        "group": "유통·판매",
+        "subcategory": "유통관리"
+      },
+      {
+        "job_name": "구매담당자",
+        "group": "유통·판매",
+        "subcategory": "유통관리"
+      }
+    ],
+    "영업": [
+      {
+        "job_name": "영업사원",
+        "group": "유통·판매",
+        "subcategory": "영업"
+      },
+      {
+        "job_name": "영업관리자",
+        "group": "유통·판매",
+        "subcategory": "영업"
+      },
+      {
+        "job_name": "세ール즈",
+        "group": "유통·판매",
+        "subcategory": "영업"
+      }
+    ],
+    "영업관리자": [
+      {
+        "job_name": "영업관리자",
+        "group": "유통·판매",
+        "subcategory": "영업"
+      }
+    ],
+    "세ール즈": [
+      {
+        "job_name": "세ール즈",
+        "group": "유통·판매",
+        "subcategory": "영업"
+      }
+    ],
+    "판매원": [
+      {
+        "job_name": "판매원",
+        "group": "유통·판매",
+        "subcategory": "판매"
+      }
+    ],
+    "판매": [
+      {
+        "job_name": "판매원",
+        "group": "유통·판매",
+        "subcategory": "판매"
+      },
+      {
+        "job_name": "매장관리자",
+        "group": "유통·판매",
+        "subcategory": "판매"
+      },
+      {
+        "job_name": "캐셔",
+        "group": "유통·판매",
+        "subcategory": "판매"
+      }
+    ],
+    "매장관리자": [
+      {
+        "job_name": "매장관리자",
+        "group": "유통·판매",
+        "subcategory": "판매"
+      }
+    ],
+    "캐셔": [
+      {
+        "job_name": "캐셔",
+        "group": "유통·판매",
+        "subcategory": "판매"
+      }
+    ],
+    "마케팅": [
+      {
+        "job_name": "마케팅 기획자",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      },
+      {
+        "job_name": "마케팅 기획자",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      },
+      {
+        "job_name": "광고 기획자",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      },
+      {
+        "job_name": "브랜드 매니저",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      }
+    ],
+    "광고": [
+      {
+        "job_name": "광고 기획자",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      }
+    ],
+    "브랜드": [
+      {
+        "job_name": "브랜드 매니저",
+        "group": "유통·판매",
+        "subcategory": "마케팅"
+      }
+    ],
+    "유통관리자": [
+      {
+        "job_name": "유통관리자",
+        "group": "유통·판매",
+        "subcategory": "유통관리"
+      }
+    ],
+    "유통관리": [
+      {
+        "job_name": "유통관리자",
+        "group": "유통·판매",
+        "subcategory": "유통관리"
+      },
+      {
+        "job_name": "물류관리자",
+        "group": "유통·판매",
+        "subcategory": "유통관리"
+      },
+      {
+        "job_name": "구매담당자",
+        "group": "유통·판매",
+        "subcategory": "유통관리"
+      }
+    ],
+    "물류관리자": [
+      {
+        "job_name": "물류관리자",
+        "group": "유통·판매",
+        "subcategory": "유통관리"
+      },
+      {
+        "job_name": "물류관리자",
+        "group": "운송·물류",
+        "subcategory": "물류창고"
+      }
+    ],
+    "구매담당자": [
+      {
+        "job_name": "구매담당자",
+        "group": "유통·판매",
+        "subcategory": "유통관리"
+      }
+    ],
+    "일반행정직": [
+      {
+        "job_name": "일반행정직",
+        "group": "공공행정",
+        "subcategory": "행정공무원"
+      }
+    ],
+    "공공행정": [
+      {
+        "job_name": "일반행정직",
+        "group": "공공행정",
+        "subcategory": "행정공무원"
+      },
+      {
+        "job_name": "재무직",
+        "group": "공공행정",
+        "subcategory": "행정공무원"
+      },
+      {
+        "job_name": "인사직",
+        "group": "공공행정",
+        "subcategory": "행정공무원"
+      },
+      {
+        "job_name": "토목직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      },
+      {
+        "job_name": "건축직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      },
+      {
+        "job_name": "전산직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      },
+      {
+        "job_name": "환경직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      },
+      {
+        "job_name": "외교관",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      },
+      {
+        "job_name": "검사",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      },
+      {
+        "job_name": "판사",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      },
+      {
+        "job_name": "경찰관",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      },
+      {
+        "job_name": "사회복지공무원",
+        "group": "공공행정",
+        "subcategory": "공공서비스"
+      },
+      {
+        "job_name": "보건공무원",
+        "group": "공공행정",
+        "subcategory": "공공서비스"
+      },
+      {
+        "job_name": "교육공무원",
+        "group": "공공행정",
+        "subcategory": "공공서비스"
+      }
+    ],
+    "행정공무원": [
+      {
+        "job_name": "일반행정직",
+        "group": "공공행정",
+        "subcategory": "행정공무원"
+      },
+      {
+        "job_name": "재무직",
+        "group": "공공행정",
+        "subcategory": "행정공무원"
+      },
+      {
+        "job_name": "인사직",
+        "group": "공공행정",
+        "subcategory": "행정공무원"
+      }
+    ],
+    "재무직": [
+      {
+        "job_name": "재무직",
+        "group": "공공행정",
+        "subcategory": "행정공무원"
+      }
+    ],
+    "인사직": [
+      {
+        "job_name": "인사직",
+        "group": "공공행정",
+        "subcategory": "행정공무원"
+      }
+    ],
+    "토목직": [
+      {
+        "job_name": "토목직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      }
+    ],
+    "기술공무원": [
+      {
+        "job_name": "토목직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      },
+      {
+        "job_name": "건축직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      },
+      {
+        "job_name": "전산직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      },
+      {
+        "job_name": "환경직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      }
+    ],
+    "건축직": [
+      {
+        "job_name": "건축직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      }
+    ],
+    "전산직": [
+      {
+        "job_name": "전산직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      }
+    ],
+    "환경직": [
+      {
+        "job_name": "환경직",
+        "group": "공공행정",
+        "subcategory": "기술공무원"
+      }
+    ],
+    "외교관": [
+      {
+        "job_name": "외교관",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      }
+    ],
+    "전문공무원": [
+      {
+        "job_name": "외교관",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      },
+      {
+        "job_name": "검사",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      },
+      {
+        "job_name": "판사",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      },
+      {
+        "job_name": "경찰관",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      }
+    ],
+    "검사": [
+      {
+        "job_name": "검사",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      }
+    ],
+    "판사": [
+      {
+        "job_name": "판사",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      }
+    ],
+    "경찰관": [
+      {
+        "job_name": "경찰관",
+        "group": "공공행정",
+        "subcategory": "전문공무원"
+      }
+    ],
+    "사회복지공무원": [
+      {
+        "job_name": "사회복지공무원",
+        "group": "공공행정",
+        "subcategory": "공공서비스"
+      }
+    ],
+    "공공서비스": [
+      {
+        "job_name": "사회복지공무원",
+        "group": "공공행정",
+        "subcategory": "공공서비스"
+      },
+      {
+        "job_name": "보건공무원",
+        "group": "공공행정",
+        "subcategory": "공공서비스"
+      },
+      {
+        "job_name": "교육공무원",
+        "group": "공공행정",
+        "subcategory": "공공서비스"
+      }
+    ],
+    "보건공무원": [
+      {
+        "job_name": "보건공무원",
+        "group": "공공행정",
+        "subcategory": "공공서비스"
+      }
+    ],
+    "교육공무원": [
+      {
+        "job_name": "교육공무원",
+        "group": "공공행정",
+        "subcategory": "공공서비스"
+      }
+    ],
+    "택시기사": [
+      {
+        "job_name": "택시기사",
+        "group": "운송·물류",
+        "subcategory": "육상운송"
+      }
+    ],
+    "운송·물류": [
+      {
+        "job_name": "택시기사",
+        "group": "운송·물류",
+        "subcategory": "육상운송"
+      },
+      {
+        "job_name": "버스기사",
+        "group": "운송·물류",
+        "subcategory": "육상운송"
+      },
+      {
+        "job_name": "트럭기사",
+        "group": "운송·물류",
+        "subcategory": "육상운송"
+      },
+      {
+        "job_name": "물류관리자",
+        "group": "운송·물류",
+        "subcategory": "물류창고"
+      },
+      {
+        "job_name": "창고관리자",
+        "group": "운송·물류",
+        "subcategory": "물류창고"
+      },
+      {
+        "job_name": "하역작업원",
+        "group": "운송·물류",
+        "subcategory": "물류창고"
+      },
+      {
+        "job_name": "택배기사",
+        "group": "운송·물류",
+        "subcategory": "배송서비스"
+      },
+      {
+        "job_name": "배달원",
+        "group": "운송·물류",
+        "subcategory": "배송서비스"
+      },
+      {
+        "job_name": "퀵서비스",
+        "group": "운송·물류",
+        "subcategory": "배송서비스"
+      },
+      {
+        "job_name": "교통관제사",
+        "group": "운송·물류",
+        "subcategory": "교통관제"
+      },
+      {
+        "job_name": "운송기획자",
+        "group": "운송·물류",
+        "subcategory": "교통관제"
+      },
+      {
+        "job_name": "물류기획자",
+        "group": "운송·물류",
+        "subcategory": "교통관제"
+      }
+    ],
+    "육상운송": [
+      {
+        "job_name": "택시기사",
+        "group": "운송·물류",
+        "subcategory": "육상운송"
+      },
+      {
+        "job_name": "버스기사",
+        "group": "운송·물류",
+        "subcategory": "육상운송"
+      },
+      {
+        "job_name": "트럭기사",
+        "group": "운송·물류",
+        "subcategory": "육상운송"
+      }
+    ],
+    "버스기사": [
+      {
+        "job_name": "버스기사",
+        "group": "운송·물류",
+        "subcategory": "육상운송"
+      }
+    ],
+    "트럭기사": [
+      {
+        "job_name": "트럭기사",
+        "group": "운송·물류",
+        "subcategory": "육상운송"
+      }
+    ],
+    "물류창고": [
+      {
+        "job_name": "물류관리자",
+        "group": "운송·물류",
+        "subcategory": "물류창고"
+      },
+      {
+        "job_name": "창고관리자",
+        "group": "운송·물류",
+        "subcategory": "물류창고"
+      },
+      {
+        "job_name": "하역작업원",
+        "group": "운송·물류",
+        "subcategory": "물류창고"
+      }
+    ],
+    "창고관리자": [
+      {
+        "job_name": "창고관리자",
+        "group": "운송·물류",
+        "subcategory": "물류창고"
+      }
+    ],
+    "하역작업원": [
+      {
+        "job_name": "하역작업원",
+        "group": "운송·물류",
+        "subcategory": "물류창고"
+      }
+    ],
+    "택배기사": [
+      {
+        "job_name": "택배기사",
+        "group": "운송·물류",
+        "subcategory": "배송서비스"
+      }
+    ],
+    "배송서비스": [
+      {
+        "job_name": "택배기사",
+        "group": "운송·물류",
+        "subcategory": "배송서비스"
+      },
+      {
+        "job_name": "배달원",
+        "group": "운송·물류",
+        "subcategory": "배송서비스"
+      },
+      {
+        "job_name": "퀵서비스",
+        "group": "운송·물류",
+        "subcategory": "배송서비스"
+      }
+    ],
+    "배달원": [
+      {
+        "job_name": "배달원",
+        "group": "운송·물류",
+        "subcategory": "배송서비스"
+      }
+    ],
+    "퀵서비스": [
+      {
+        "job_name": "퀵서비스",
+        "group": "운송·물류",
+        "subcategory": "배송서비스"
+      }
+    ],
+    "교통관제사": [
+      {
+        "job_name": "교통관제사",
+        "group": "운송·물류",
+        "subcategory": "교통관제"
+      }
+    ],
+    "교통관제": [
+      {
+        "job_name": "교통관제사",
+        "group": "운송·물류",
+        "subcategory": "교통관제"
+      },
+      {
+        "job_name": "운송기획자",
+        "group": "운송·물류",
+        "subcategory": "교통관제"
+      },
+      {
+        "job_name": "물류기획자",
+        "group": "운송·물류",
+        "subcategory": "교통관제"
+      }
+    ],
+    "운송기획자": [
+      {
+        "job_name": "운송기획자",
+        "group": "운송·물류",
+        "subcategory": "교통관제"
+      }
+    ],
+    "물류기획자": [
+      {
+        "job_name": "물류기획자",
+        "group": "운송·물류",
+        "subcategory": "교통관제"
+      }
+    ],
+    "한식조리사": [
+      {
+        "job_name": "한식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      }
+    ],
+    "음식·숙박": [
+      {
+        "job_name": "한식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      },
+      {
+        "job_name": "양식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      },
+      {
+        "job_name": "중식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      },
+      {
+        "job_name": "일식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      },
+      {
+        "job_name": "웨이터",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      },
+      {
+        "job_name": "바리스타",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      },
+      {
+        "job_name": "바텐더",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      },
+      {
+        "job_name": "홀매니저",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      },
+      {
+        "job_name": "호텔리어",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      },
+      {
+        "job_name": "프론트",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      },
+      {
+        "job_name": "하우스키핑",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      },
+      {
+        "job_name": "컨시어지",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      },
+      {
+        "job_name": "여행가이드",
+        "group": "음식·숙박",
+        "subcategory": "관광"
+      },
+      {
+        "job_name": "관광기획자",
+        "group": "음식·숙박",
+        "subcategory": "관광"
+      },
+      {
+        "job_name": "여행상품기획자",
+        "group": "음식·숙박",
+        "subcategory": "관광"
+      }
+    ],
+    "조리": [
+      {
+        "job_name": "한식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      },
+      {
+        "job_name": "양식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      },
+      {
+        "job_name": "중식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      },
+      {
+        "job_name": "일식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      }
+    ],
+    "양식조리사": [
+      {
+        "job_name": "양식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      }
+    ],
+    "중식조리사": [
+      {
+        "job_name": "중식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      }
+    ],
+    "일식조리사": [
+      {
+        "job_name": "일식조리사",
+        "group": "음식·숙박",
+        "subcategory": "조리"
+      }
+    ],
+    "웨이터": [
+      {
+        "job_name": "웨이터",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      }
+    ],
+    "서빙": [
+      {
+        "job_name": "웨이터",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      },
+      {
+        "job_name": "바리스타",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      },
+      {
+        "job_name": "바텐더",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      },
+      {
+        "job_name": "홀매니저",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      }
+    ],
+    "바리스타": [
+      {
+        "job_name": "바리스타",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      }
+    ],
+    "바텐더": [
+      {
+        "job_name": "바텐더",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      }
+    ],
+    "홀매니저": [
+      {
+        "job_name": "홀매니저",
+        "group": "음식·숙박",
+        "subcategory": "서빙"
+      }
+    ],
+    "호텔리어": [
+      {
+        "job_name": "호텔리어",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      }
+    ],
+    "호텔": [
+      {
+        "job_name": "호텔리어",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      },
+      {
+        "job_name": "프론트",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      },
+      {
+        "job_name": "하우스키핑",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      },
+      {
+        "job_name": "컨시어지",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      }
+    ],
+    "프론트": [
+      {
+        "job_name": "프론트",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      }
+    ],
+    "하우스키핑": [
+      {
+        "job_name": "하우스키핑",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      }
+    ],
+    "컨시어지": [
+      {
+        "job_name": "컨시어지",
+        "group": "음식·숙박",
+        "subcategory": "호텔"
+      }
+    ],
+    "여행가이드": [
+      {
+        "job_name": "여행가이드",
+        "group": "음식·숙박",
+        "subcategory": "관광"
+      }
+    ],
+    "관광": [
+      {
+        "job_name": "여행가이드",
+        "group": "음식·숙박",
+        "subcategory": "관광"
+      },
+      {
+        "job_name": "관광기획자",
+        "group": "음식·숙박",
+        "subcategory": "관광"
+      },
+      {
+        "job_name": "여행상품기획자",
+        "group": "음식·숙박",
+        "subcategory": "관광"
+      }
+    ],
+    "관광기획자": [
+      {
+        "job_name": "관광기획자",
+        "group": "음식·숙박",
+        "subcategory": "관광"
+      }
+    ],
+    "여행상품기획자": [
+      {
+        "job_name": "여행상품기획자",
+        "group": "음식·숙박",
+        "subcategory": "관광"
+      }
+    ],
+    "농업인": [
+      {
+        "job_name": "농업인",
+        "group": "농림어업",
+        "subcategory": "농업"
+      }
+    ],
+    "농림어업": [
+      {
+        "job_name": "농업인",
+        "group": "농림어업",
+        "subcategory": "농업"
+      },
+      {
+        "job_name": "농장관리자",
+        "group": "농림어업",
+        "subcategory": "농업"
+      },
+      {
+        "job_name": "작물재배자",
+        "group": "농림어업",
+        "subcategory": "농업"
+      },
+      {
+        "job_name": "축산업자",
+        "group": "농림어업",
+        "subcategory": "축산업"
+      },
+      {
+        "job_name": "목장관리자",
+        "group": "농림어업",
+        "subcategory": "축산업"
+      },
+      {
+        "job_name": "사육사",
+        "group": "농림어업",
+        "subcategory": "축산업"
+      },
+      {
+        "job_name": "임업인",
+        "group": "농림어업",
+        "subcategory": "임업"
+      },
+      {
+        "job_name": "산림관리자",
+        "group": "농림어업",
+        "subcategory": "임업"
+      },
+      {
+        "job_name": "조경사",
+        "group": "농림어업",
+        "subcategory": "임업"
+      },
+      {
+        "job_name": "어업인",
+        "group": "농림어업",
+        "subcategory": "어업"
+      },
+      {
+        "job_name": "양식업자",
+        "group": "농림어업",
+        "subcategory": "어업"
+      },
+      {
+        "job_name": "선원",
+        "group": "농림어업",
+        "subcategory": "어업"
+      }
+    ],
+    "농업": [
+      {
+        "job_name": "농업인",
+        "group": "농림어업",
+        "subcategory": "농업"
+      },
+      {
+        "job_name": "농장관리자",
+        "group": "농림어업",
+        "subcategory": "농업"
+      },
+      {
+        "job_name": "작물재배자",
+        "group": "농림어업",
+        "subcategory": "농업"
+      }
+    ],
+    "농장관리자": [
+      {
+        "job_name": "농장관리자",
+        "group": "농림어업",
+        "subcategory": "농업"
+      }
+    ],
+    "작물재배자": [
+      {
+        "job_name": "작물재배자",
+        "group": "농림어업",
+        "subcategory": "농업"
+      }
+    ],
+    "축산업자": [
+      {
+        "job_name": "축산업자",
+        "group": "농림어업",
+        "subcategory": "축산업"
+      }
+    ],
+    "축산업": [
+      {
+        "job_name": "축산업자",
+        "group": "농림어업",
+        "subcategory": "축산업"
+      },
+      {
+        "job_name": "목장관리자",
+        "group": "농림어업",
+        "subcategory": "축산업"
+      },
+      {
+        "job_name": "사육사",
+        "group": "농림어업",
+        "subcategory": "축산업"
+      }
+    ],
+    "목장관리자": [
+      {
+        "job_name": "목장관리자",
+        "group": "농림어업",
+        "subcategory": "축산업"
+      }
+    ],
+    "사육사": [
+      {
+        "job_name": "사육사",
+        "group": "농림어업",
+        "subcategory": "축산업"
+      }
+    ],
+    "임업인": [
+      {
+        "job_name": "임업인",
+        "group": "농림어업",
+        "subcategory": "임업"
+      }
+    ],
+    "임업": [
+      {
+        "job_name": "임업인",
+        "group": "농림어업",
+        "subcategory": "임업"
+      },
+      {
+        "job_name": "산림관리자",
+        "group": "농림어업",
+        "subcategory": "임업"
+      },
+      {
+        "job_name": "조경사",
+        "group": "농림어업",
+        "subcategory": "임업"
+      }
+    ],
+    "산림관리자": [
+      {
+        "job_name": "산림관리자",
+        "group": "농림어업",
+        "subcategory": "임업"
+      }
+    ],
+    "조경사": [
+      {
+        "job_name": "조경사",
+        "group": "농림어업",
+        "subcategory": "임업"
+      }
+    ],
+    "어업인": [
+      {
+        "job_name": "어업인",
+        "group": "농림어업",
+        "subcategory": "어업"
+      }
+    ],
+    "어업": [
+      {
+        "job_name": "어업인",
+        "group": "농림어업",
+        "subcategory": "어업"
+      },
+      {
+        "job_name": "양식업자",
+        "group": "농림어업",
+        "subcategory": "어업"
+      },
+      {
+        "job_name": "선원",
+        "group": "농림어업",
+        "subcategory": "어업"
+      }
+    ],
+    "양식업자": [
+      {
+        "job_name": "양식업자",
+        "group": "농림어업",
+        "subcategory": "어업"
+      }
+    ],
+    "선원": [
+      {
+        "job_name": "선원",
+        "group": "농림어업",
+        "subcategory": "어업"
+      }
+    ]
+  },
+  "code_mapping": {
+    "industry_to_group": {
+      "702": "IT·정보통신",
+      "721": "IT·정보통신",
+      "32": "제조업",
+      "641": "IT·정보통신",
+      "642": "IT·정보통신",
+      "651": "금융·보험",
+      "659": "금융·보험",
+      "660": "금융·보험",
+      "671": "금융·보험",
+      "672": "금융·보험",
+      "652": "금융·보험",
+      "851": "의료·보건",
+      "852": "의료·보건",
+      "855": "의료·보건",
+      "853": "의료·보건",
+      "854": "의료·보건",
+      "801": "공공행정",
+      "841": "교육",
+      "842": "교육",
+      "843": "교육",
+      "849": "교육",
+      "552": "교육",
+      "15": "제조업",
+      "16": "제조업",
+      "17": "제조업",
+      "18": "제조업",
+      "19": "제조업",
+      "20": "제조업",
+      "21": "제조업",
+      "22": "제조업",
+      "23": "제조업",
+      "24": "제조업",
+      "25": "제조업",
+      "26": "제조업",
+      "27": "제조업",
+      "28": "제조업",
+      "29": "제조업",
+      "30": "제조업",
+      "31": "제조업",
+      "33": "제조업",
+      "34": "제조업",
+      "35": "제조업",
+      "36": "제조업",
+      "37": "제조업",
+      "741": "유통·판매",
+      "452": "건설·건축",
+      "453": "건설·건축",
+      "454": "건설·건축",
+      "455": "건설·건축",
+      "471": "유통·판매",
+      "472": "유통·판매",
+      "473": "유통·판매",
+      "474": "유통·판매",
+      "492": "유통·판매",
+      "493": "유통·판매",
+      "494": "유통·판매",
+      "495": "유통·판매",
+      "496": "유통·판매",
+      "631": "운송·물류",
+      "751": "공공행정",
+      "752": "공공행정",
+      "753": "공공행정",
+      "802": "공공행정",
+      "803": "공공행정",
+      "804": "공공행정",
+      "805": "공공행정",
+      "806": "공공행정",
+      "807": "공공행정",
+      "808": "공공행정",
+      "809": "공공행정",
+      "602": "운송·물류",
+      "603": "운송·물류",
+      "634": "운송·물류",
+      "601": "운송·물류",
+      "522": "음식·숙박",
+      "521": "음식·숙박",
+      "551": "음식·숙박",
+      "633": "음식·숙박",
+      "11": "농림어업",
+      "12": "농림어업",
+      "13": "농림어업",
+      "14": "농림어업"
+    },
+    "job_to_group": {
+      "213": "IT·정보통신",
+      "312": "공공행정",
+      "313": "IT·정보통신",
+      "241": "음식·숙박",
+      "251": "IT·정보통신",
+      "421": "금융·보험",
+      "422": "금융·보험",
+      "331": "유통·판매",
+      "333": "금융·보험",
+      "332": "유통·판매",
+      "222": "의료·보건",
+      "223": "의료·보건",
+      "252": "의료·보건",
+      "322": "의료·보건",
+      "321": "의료·보건",
+      "224": "의료·보건",
+      "225": "의료·보건",
+      "226": "의료·보건",
+      "227": "의료·보건",
+      "254": "공공행정",
+      "231": "교육",
+      "232": "교육",
+      "233": "교육",
+      "234": "공공행정",
+      "235": "교육",
+      "236": "교육",
+      "237": "교육",
+      "122": "운송·물류",
+      "131": "유통·판매",
+      "214": "공공행정",
+      "215": "공공행정",
+      "216": "건설·건축",
+      "311": "제조업",
+      "315": "제조업",
+      "316": "제조업",
+      "721": "제조업",
+      "722": "제조업",
+      "811": "제조업",
+      "812": "제조업",
+      "821": "제조업",
+      "822": "제조업",
+      "841": "제조업",
+      "842": "제조업",
+      "711": "건설·건축",
+      "712": "건설·건축",
+      "731": "제조업",
+      "713": "건설·건축",
+      "832": "건설·건축",
+      "520": "유통·판매",
+      "521": "유통·판매",
+      "522": "유통·판매",
+      "523": "유통·판매",
+      "524": "유통·판매",
+      "245": "유통·판매",
+      "121": "공공행정",
+      "441": "공공행정",
+      "442": "공공행정",
+      "111": "공공행정",
+      "112": "공공행정",
+      "242": "공공행정",
+      "341": "공공행정",
+      "247": "공공행정",
+      "831": "운송·물류",
+      "912": "운송·물류",
+      "913": "운송·물류",
+      "931": "운송·물류",
+      "512": "음식·숙박",
+      "513": "음식·숙박",
+      "514": "음식·숙박",
+      "511": "음식·숙박",
+      "516": "음식·숙박",
+      "941": "음식·숙박",
+      "611": "농림어업",
+      "612": "농림어업",
+      "613": "농림어업",
+      "614": "농림어업",
+      "615": "농림어업"
+    },
+    "industry_to_subcat": {
+      "702": "IT지원",
+      "721": "소프트웨어개발",
+      "32": "기능직",
+      "641": "네트워크시스템",
+      "642": "네트워크시스템",
+      "651": "금융기획",
+      "659": "금융기획",
+      "660": "보험업무",
+      "671": "보험업무",
+      "672": "보험업무",
+      "652": "증권투자",
+      "851": "의료기사",
+      "852": "의료기사",
+      "855": "보건관리",
+      "853": "약료",
+      "854": "보건관리",
+      "801": "행정공무원",
+      "841": "교육지원",
+      "842": "교육지원",
+      "843": "고등교육",
+      "849": "직업교육",
+      "552": "직업교육",
+      "15": "기능직",
+      "16": "기능직",
+      "17": "기능직",
+      "18": "기능직",
+      "19": "기능직",
+      "20": "기능직",
+      "21": "기능직",
+      "22": "기능직",
+      "23": "기능직",
+      "24": "기능직",
+      "25": "기능직",
+      "26": "기능직",
+      "27": "기능직",
+      "28": "기능직",
+      "29": "기능직",
+      "30": "기능직",
+      "31": "기능직",
+      "33": "기능직",
+      "34": "기능직",
+      "35": "기능직",
+      "36": "기능직",
+      "37": "기능직",
+      "741": "마케팅",
+      "452": "건설장비",
+      "453": "건설장비",
+      "454": "건설기능",
+      "455": "건설시공",
+      "471": "유통관리",
+      "472": "영업",
+      "473": "영업",
+      "474": "영업",
+      "492": "판매",
+      "493": "판매",
+      "494": "판매",
+      "495": "판매",
+      "496": "판매",
+      "631": "교통관제",
+      "751": "기술공무원",
+      "752": "행정공무원",
+      "753": "행정공무원",
+      "802": "행정공무원",
+      "803": "행정공무원",
+      "804": "기술공무원",
+      "805": "기술공무원",
+      "806": "전문공무원",
+      "807": "전문공무원",
+      "808": "전문공무원",
+      "809": "공공서비스",
+      "602": "육상운송",
+      "603": "육상운송",
+      "634": "배송서비스",
+      "601": "교통관제",
+      "522": "서빙",
+      "521": "호텔",
+      "551": "호텔",
+      "633": "관광",
+      "11": "농업",
+      "12": "축산업",
+      "13": "임업",
+      "14": "어업"
+    },
+    "job_to_subcat": {
+      "213": "소프트웨어개발",
+      "312": "기술공무원",
+      "313": "네트워크시스템",
+      "241": "관광",
+      "251": "IT지원",
+      "421": "은행업무",
+      "422": "은행업무",
+      "331": "영업",
+      "333": "보험업무",
+      "332": "영업",
+      "222": "의료진",
+      "223": "간호",
+      "252": "간호",
+      "322": "보건관리",
+      "321": "의료기사",
+      "224": "의료기사",
+      "225": "의료기사",
+      "226": "의료기사",
+      "227": "약료",
+      "254": "공공서비스",
+      "231": "고등교육",
+      "232": "초중고교육",
+      "233": "초중고교육",
+      "234": "공공서비스",
+      "235": "직업교육",
+      "236": "교육지원",
+      "237": "교육지원",
+      "122": "교통관제",
+      "131": "유통관리",
+      "214": "기술공무원",
+      "215": "기술공무원",
+      "216": "건설시공",
+      "311": "기술연구",
+      "315": "기술연구",
+      "316": "기술연구",
+      "721": "기능직",
+      "722": "기능직",
+      "811": "생산직",
+      "812": "생산직",
+      "821": "생산직",
+      "822": "생산직",
+      "841": "생산직",
+      "842": "생산직",
+      "711": "건설기능",
+      "712": "건설기능",
+      "731": "기능직",
+      "713": "건설기능",
+      "832": "건설장비",
+      "520": "판매",
+      "521": "판매",
+      "522": "판매",
+      "523": "판매",
+      "524": "판매",
+      "245": "마케팅",
+      "121": "행정공무원",
+      "441": "행정공무원",
+      "442": "행정공무원",
+      "111": "전문공무원",
+      "112": "전문공무원",
+      "242": "전문공무원",
+      "341": "전문공무원",
+      "247": "공공서비스",
+      "831": "육상운송",
+      "912": "배송서비스",
+      "913": "물류창고",
+      "931": "배송서비스",
+      "512": "조리",
+      "513": "서빙",
+      "514": "서빙",
+      "511": "관광",
+      "516": "호텔",
+      "941": "호텔",
+      "611": "농업",
+      "612": "임업",
+      "613": "축산업",
+      "614": "어업",
+      "615": "어업"
+    }
+  }
+}
