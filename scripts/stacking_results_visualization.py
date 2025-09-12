@@ -120,16 +120,16 @@ def create_stacking_comparison():
     
     # 요약 통계 출력
     print(f"\n=== Stacking 앙상블 최적화 결과 요약 ===")
-    print(f"✅ 최고 성능: Medium Stacking (30K 샘플)")
+    print(f"최고 성능: Medium Stacking (30K 샘플)")
     print(f"   - 임금 RMSE: 105.11 (베이스라인 대비 -10.81, 현재 대비 -13.78)")
     print(f"   - 만족도 정확도: 0.6703 (베이스라인 대비 -0.024, 현재 대비 -0.001)")
     print(f"   - 훈련 시간: 1.3분 (실용적)")
     
-    print(f"\n✅ 가장 빠른 개선: Quick Stacking (10K 샘플)")
+    print(f"\n가장 빠른 개선: Quick Stacking (10K 샘플)")
     print(f"   - 임금 RMSE: 97.13 (현재 대비 -21.76!)")
     print(f"   - 훈련 시간: 0.2분 (매우 빠름)")
     
-    print(f"\n🎯 권장사항:")
+    print(f"\n권장사항:")
     print(f"   1. Medium Stacking (30K) 방식을 전체 데이터셋에 적용")
     print(f"   2. 예상 성능: 임금 RMSE 105-110 수준 달성 가능")
     print(f"   3. 베이스라인 목표(115.92) 달성 확실")
@@ -159,4 +159,4 @@ def create_improvement_summary():
 if __name__ == "__main__":
     create_stacking_comparison()
     create_improvement_summary()
-    print(f"\n🎉 Stacking 앙상블 최적화 성공적으로 완료!")
+    print(f"\nStacking 앙상블 최적화 성공적으로 완료!")
