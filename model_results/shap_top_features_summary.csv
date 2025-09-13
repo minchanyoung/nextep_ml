@@ -1,0 +1,11 @@
+rank,wage_prediction_top_features,satisfaction_prediction_top_features
+1,wage_vs_occupation_avg,wave
+2,wage_quartile_in_occupation,p4311
+3,p_sex,hhid
+4,p_age,wage_vs_occupation_avg
+5,p_edu,p_ind2000
+6,wave,p_age
+7,occupation_code,p_jobfam2000
+8,occupation_avg_wage,wage_quartile_in_occupation
+9,occupation_med_wage,occupation_code
+10,current_job,p4316

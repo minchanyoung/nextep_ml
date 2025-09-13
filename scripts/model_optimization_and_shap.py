@@ -53,6 +53,9 @@ class ModelOptimizationSystem:
         valid_mask = (~df_consecutive['next_wage'].isna()) & (~df_consecutive['next_satisfaction'].isna())
         df_final = df_consecutive[valid_mask].copy()
         
+        # 만족도 타겟 변수의 유효한 값(0 초과)만 필터링
+        df_final = df_final[df_final['next_satisfaction'] > 0].copy()
+        
         print(f"최종 데이터셋 크기: {df_final.shape}")
         
         # 특성 선택 (타겟 변수 제외)
@@ -78,8 +81,8 @@ class ModelOptimizationSystem:
         self.X_test = df_final[test_mask][feature_cols]
         self.y_wage_train = df_final[train_mask]['next_wage']
         self.y_wage_test = df_final[test_mask]['next_wage']
-        self.y_sat_train = df_final[train_mask]['next_satisfaction'].astype(int)
-        self.y_sat_test = df_final[test_mask]['next_satisfaction'].astype(int)
+        self.y_sat_train = (df_final[train_mask]['next_satisfaction'] - 1).astype(int)
+        self.y_sat_test = (df_final[test_mask]['next_satisfaction'] - 1).astype(int)
         
         self.feature_names = feature_cols
         

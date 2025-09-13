@@ -1,0 +1,2 @@
+baseline_accuracy,optimized_accuracy,baseline_f1,optimized_f1,accuracy_improvement_pct,f1_improvement_pct,optimized_params
+0.6697674418604651,0.6743781597573306,0.6508026224263007,0.652550783253091,0.688405797101448,0.268616131304583,"{'n_estimators': 1151, 'max_depth': 4, 'learning_rate': 0.102, 'subsample': 0.805, 'colsample_bytree': 0.815, 'reg_alpha': 2.16, 'reg_lambda': 8.77, 'random_state': 42, 'objective': 'multi:softprob', 'verbosity': 0, 'n_jobs': 1}"

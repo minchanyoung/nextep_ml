@@ -1,0 +1,2 @@
+wage_ensemble_rmse,wage_ensemble_mae,wage_ensemble_r2,satisfaction_ensemble_accuracy,satisfaction_ensemble_f1,wage_improvement_vs_baseline,satisfaction_improvement_vs_baseline
+116.42027528429546,57.85450765056258,0.6908270722745341,0.6752586133196546,0.6545452554186909,2.0773191317222173,0.5447607682630538
