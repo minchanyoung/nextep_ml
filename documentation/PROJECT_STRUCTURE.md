@@ -1,103 +1,78 @@
-# 프로젝트 폴더 구조
+# 프로젝트 폴더 구조 (최종)
+
+이 문서는 KLIPS 데이터 분석 및 예측 모델 개발 프로젝트의 최종 폴더 구조를 설명합니다.
 
 ```
 ML/
-├── README_DATA_PREPROCESSING.md         # 메인 프로젝트 문서 (루트)
-├── data/                               # 원본 및 메타데이터
-│   ├── raw_data/                       # 원본 데이터
-│   │   └── nextep_dataset.csv         # 원본 KLIPS 데이터 (369,307 rows)
-│   │   └── nextep_dataset_codebook.csv # 데이터 코드북
-│   └── feature_info_final.csv         # 생성된 특성 정보 메타데이터
-├── processed_data/                     # 전처리된 ML 데이터셋
-│   ├── ml_dataset_engineered.csv      # 최종 ML 데이터셋 (166,507 × 38)
-│   ├── train_engineered.csv           # 훈련 데이터 (2000-2020, 143,113개)
-│   ├── test_engineered.csv            # 테스트 데이터 (2021-2022, 23,394개)
-│   ├── combined_prediction_clean.csv  # 통합 예측용 정제 데이터
-│   ├── wage_prediction_clean.csv      # 임금 예측용 데이터
-│   ├── satisfaction_prediction_clean.csv # 만족도 예측용 데이터
-│   └── prediction_sample.csv          # 예측 샘플 데이터
-├── scripts/                           # 데이터 전처리 스크립트
-│   ├── data_exploration.py           # 기본 탐색적 데이터 분석
-│   ├── target_analysis.py            # 타겟 변수 세부 분석
-│   ├── panel_analysis.py             # 패널 데이터 구조 분석
-│   ├── data_preprocessing.py         # 초기 전처리 스크립트
-│   ├── data_preprocessing_efficient.py # 효율적인 전처리 스크립트
-│   ├── feature_engineering.py        # 특성 엔지니어링 (초기)
-│   └── feature_engineering_fixed.py  # 특성 엔지니어링 (최종)
-├── visualizations/                    # 분석 결과 시각화
-│   ├── data_exploration_plots.png    # 기본 데이터 탐색 결과
-│   ├── target_analysis_plots.png     # 타겟 변수 분석 결과
-│   ├── panel_analysis_plots.png      # 패널 데이터 분석 결과
-│   ├── preprocessing_summary.png     # 전처리 요약 결과
-│   └── feature_engineering_final.png # 특성 엔지니어링 결과
-└── documentation/                     # 프로젝트 문서
-    ├── README_DATA_PREPROCESSING.md  # 데이터 전처리 상세 보고서
-    └── PROJECT_STRUCTURE.md         # 이 파일
+├── .gitignore
+├── MODEL_INTEGRATION_GUIDE.md      # 외부 프로젝트 통합 가이드
+├── PROJECT_PROGRESS_UPDATE.md      # 전체 프로젝트 진행 과정 및 최종 보고서 (마스터 문서)
+├── README_DATA_PREPROCESSING.md    # 데이터 전처리 및 초기 모델링 상세 보고서
+└── STACKING_SUCCESS_REPORT.md      # Stacking 앙상블 실험 결과 보고서
+
+├── data/                           # 원본 및 메타데이터
+│   ├── raw_data/                   # 원본 KLIPS 데이터
+│   └── ... (직업 매핑 json 등)
+│
+├── processed_data/                 # 전처리 및 특성 엔지니어링이 완료된 데이터
+│   ├── ml_dataset_engineered.csv   # 최종 ML 훈련용 데이터셋
+│   ├── train_engineered.csv        # 훈련 데이터 (시간 분할)
+│   └── test_engineered.csv         # 테스트 데이터 (시간 분할)
+│
+├── scripts/                        # 모든 실행 스크립트
+│   ├── 1_data_processing/
+│   │   ├── data_exploration.py
+│   │   ├── data_preprocessing_efficient.py
+│   │   └── feature_engineering_fixed.py
+│   │
+│   ├── 2_modeling_and_optimization/
+│   │   ├── boosting_models_comparison.py
+│   │   ├── model_optimization_and_shap.py
+│   │   ├── optimized_ensemble_reconstruction.py
+│   │   └── xgboost_satisfaction_optimization.py
+│   │
+│   ├── 3_analysis_and_reporting/
+│   │   ├── final_report.py
+│   │   ├── shap_analysis_final.py
+│   │   └── optimization_results_analysis.py
+│   │
+│   └── archive/ (실험용 스크립트)
+│       ├── quick_stacking_test.py
+│       ├── simple_xgboost_satisfaction_test.py
+│       └── ...
+│
+├── models/                         # 훈련된 모델 파일 (.pkl)
+│   ├── optimized_wage_voting_ensemble.pkl      # 최종 임금 예측 앙상블 모델
+│   ├── optimized_satisfaction_voting_ensemble.pkl # 최종 만족도 예측 앙상블 모델
+│   ├── final_optimized_catboost_wage.pkl       # 최적화된 CatBoost 임금 모델
+│   └── optimized_xgboost_satisfaction_final.pkl # 최적화된 XGBoost 만족도 모델
+│
+├── model_results/                  # 모델 성능 및 분석 결과 (.csv)
+│   ├── optimized_ensemble_results.csv          # 최종 앙상블 성능
+│   ├── final_optimization_results.csv          # 개별 모델 최적화 결과
+│   ├── shap_wage_feature_importance.csv        # 임금 예측 모델 SHAP 결과
+│   └── shap_satisfaction_feature_importance.csv # 만족도 예측 모델 SHAP 결과
+│
+├── visualizations/                 # 분석 및 결과 시각화 자료 (.png)
+│   ├── shap_analysis_wage_optimized.png
+│   └── shap_analysis_satisfaction_optimized.png
+│
+└── documentation/                  # 프로젝트 문서
+    └── PROJECT_STRUCTURE.md        # (현재 파일)
+
 ```
 
 ## 📁 폴더별 상세 설명
 
-### 🗂️ data/ - 원본 및 메타데이터
-- **raw_data/**: 한국노동패널조사 원본 데이터
-- **feature_info_final.csv**: 33개 생성 특성의 상세 정보 (타입, 결측값, 통계량 등)
-
-### 🔄 processed_data/ - 머신러닝용 데이터셋
-- **ml_dataset_engineered.csv**: 33개 특성으로 구성된 최종 ML 데이터셋
-- **train/test_engineered.csv**: 시간 기반 분할된 훈련/테스트 데이터
-- **prediction_clean.csv**: 타겟별 정제된 예측용 데이터
-
-### 🐍 scripts/ - 데이터 전처리 코드
-각 스크립트는 순차적 실행 가능하며, 다음 단계를 포함:
-1. **탐색적 분석**: data_exploration.py → target_analysis.py → panel_analysis.py
-2. **전처리**: data_preprocessing_efficient.py 
-3. **특성 생성**: feature_engineering_fixed.py
-
-### 📊 visualizations/ - 분석 결과 그래프
-- 데이터 분포, 시계열 패턴, 상관관계, 특성 중요도 등 시각화 결과
-
-### 📚 documentation/ - 프로젝트 문서
-- 전처리 과정 상세 보고서 및 프로젝트 구조 안내
-
-## 🎯 다음 단계 작업
-
-### 1. 머신러닝 모델링
-```
-ML/
-├── models/                    # 모델 구현 코드
-├── model_results/            # 모델 성능 결과
-└── predictions/              # 예측 결과
-```
-
-### 2. 권장 작업 순서
-1. `processed_data/train_engineered.csv` 로드
-2. Random Forest/XGBoost 베이스라인 모델 구축
-3. 시계열 특성 활용 LSTM 모델 개발  
-4. 모델 성능 비교 및 앙상블
-5. `processed_data/test_engineered.csv`로 최종 평가
-
-## 💡 사용법
-
-### 데이터 로드 예제
-```python
-import pandas as pd
-
-# 최종 ML 데이터셋 로드
-df = pd.read_csv('processed_data/ml_dataset_engineered.csv')
-
-# 훈련/테스트 데이터 로드  
-train = pd.read_csv('processed_data/train_engineered.csv')
-test = pd.read_csv('processed_data/test_engineered.csv')
-
-# 특성과 타겟 분리
-features = [col for col in train.columns if col not in ['pid', 'year', 'next_year', 'next_wage', 'next_satisfaction']]
-X_train = train[features]
-y_wage = train['next_wage']
-y_satisfaction = train['next_satisfaction']
-```
-
-### 특성 정보 확인
-```python
-# 특성 메타데이터 로드
-feature_info = pd.read_csv('data/feature_info_final.csv')
-print(feature_info.head())
-```
+- **루트**: 프로젝트의 핵심 보고서 및 가이드 파일이 위치합니다.
+- **data/**: 가공되지 않은 원본 데이터 및 분석에 필요한 각종 메타데이터를 포함합니다.
+- **processed_data/**: 원본 데이터를 정제하고 특성 엔지니어링을 거쳐, 모델 훈련에 직접 사용되는 최종 데이터셋이 저장됩니다.
+- **scripts/**: 프로젝트의 모든 실행 코드를 기능별로 분류하여 관리합니다.
+    - `1_data_processing`: 데이터 탐색, 전처리, 특성 생성 스크립트.
+    - `2_modeling_and_optimization`: 모델 훈련, 하이퍼파라미터 최적화, 앙상블 구성 스크립트.
+    - `3_analysis_and_reporting`: 최종 결과 분석, SHAP 분석, 보고서 생성용 스크립트.
+    - `archive`: 개발 과정에서 사용된 간단한 테스트 및 실험용 스크립트 보관소.
+- **models/**: 훈련이 완료되어 저장된 최종 모델 파일(`.pkl`)이 위치합니다. 웹 서비스 통합 시 이 폴더의 모델을 사용합니다.
+- **model_results/**: 모델의 성능 평가 결과(RMSE, Accuracy 등)와 SHAP 분석 결과 등 수치로 된 결과물을 `.csv` 파일로 저장합니다.
+- **visualizations/**: SHAP 요약 플롯, 성능 비교 차트 등 분석 결과를 시각화한 이미지 파일을 저장합니다.
+- **documentation/**: 프로젝트의 구조를 설명하는 문서가 위치합니다.
