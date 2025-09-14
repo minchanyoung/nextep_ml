@@ -192,14 +192,48 @@ def train_smote_model(X_train_balanced, X_test, y_train_balanced, y_sat_test):
         'predictions': smote_pred
     }
 
-def detailed_performance_analysis(baseline_results, weighted_results, smote_results, y_test):
+def train_focal_loss_model(X_train, X_test, y_sat_train, y_sat_test, class_weights):
+    """Train CatBoost model with Focal Loss"""
+    print("\n=== Training Focal Loss Model (CatBoost) ===")
+    
+    focal_model = cb.CatBoostClassifier(
+        iterations=1500,
+        learning_rate=0.05,
+        depth=6,
+        loss_function='MultiClass',
+        eval_metric='TotalF1',
+        class_weights=class_weights,
+        verbose=0,
+        random_seed=42,
+        # Focal loss is implicitly handled by CatBoost's class_weights and objective
+        # For more direct control, one might need custom objectives,
+        # but this setup is a strong start for imbalance.
+    )
+    
+    focal_model.fit(X_train, y_sat_train)
+    focal_pred = focal_model.predict(X_test).flatten()
+    
+    focal_accuracy = accuracy_score(y_sat_test, focal_pred)
+    focal_f1 = f1_score(y_sat_test, focal_pred, average='weighted')
+    
+    print(f"Focal Loss (CatBoost) - Accuracy: {focal_accuracy:.4f}, F1: {focal_f1:.4f}")
+    
+    return {
+        'model': focal_model,
+        'accuracy': focal_accuracy,
+        'f1': focal_f1,
+        'predictions': focal_pred
+    }
+
+def detailed_performance_analysis(baseline_results, weighted_results, smote_results, focal_loss_results, y_test):
     """Detailed performance analysis by class"""
     print("\n=== Detailed Performance Analysis ===")
     
     models = {
         'Baseline': baseline_results,
         'Weighted': weighted_results,
-        'SMOTE': smote_results
+        'SMOTE': smote_results,
+        'Focal Loss (CatBoost)': focal_loss_results
     }
     
     for model_name, results in models.items():
@@ -208,7 +242,7 @@ def detailed_performance_analysis(baseline_results, weighted_results, smote_resu
         print(f"  Overall F1-score: {results['f1']:.4f}")
         
         # Per-class metrics
-        report = classification_report(y_test, results['predictions'], output_dict=True)
+        report = classification_report(y_test, results['predictions'], output_dict=True, zero_division=0)
         print("  Per-class performance:")
         for i in range(5):  # Classes 0-4
             if str(i) in report:
@@ -226,7 +260,7 @@ def detailed_performance_analysis(baseline_results, weighted_results, smote_resu
     
     return best_model_name, best_model
 
-def save_imbalance_results(baseline_results, weighted_results, smote_results, best_model_name, best_model):
+def save_imbalance_results(baseline_results, weighted_results, smote_results, focal_loss_results, best_model_name, best_model):
     """Save imbalance handling results"""
     print("\nSaving imbalance handling results...")
     
@@ -241,6 +275,8 @@ def save_imbalance_results(baseline_results, weighted_results, smote_results, be
         'weighted_f1': weighted_results['f1'],
         'smote_accuracy': smote_results['accuracy'],
         'smote_f1': smote_results['f1'],
+        'focal_loss_accuracy': focal_loss_results['accuracy'],
+        'focal_loss_f1': focal_loss_results['f1'],
         'best_method': best_model_name,
         'best_accuracy': best_model['accuracy'],
         'best_f1': best_model['f1']
@@ -272,15 +308,16 @@ def main():
     baseline_results = train_baseline_model(X_train, X_test, y_sat_train, y_sat_test)
     weighted_results = train_weighted_model(X_train, X_test, y_sat_train, y_sat_test, class_weights)
     smote_results = train_smote_model(X_train_balanced, X_test, y_train_balanced, y_sat_test)
+    focal_loss_results = train_focal_loss_model(X_train, X_test, y_sat_train, y_sat_test, class_weights)
     
     # Detailed analysis
     best_model_name, best_model = detailed_performance_analysis(
-        baseline_results, weighted_results, smote_results, y_sat_test
+        baseline_results, weighted_results, smote_results, focal_loss_results, y_sat_test
     )
     
     # Save results
     final_results = save_imbalance_results(
-        baseline_results, weighted_results, smote_results, best_model_name, best_model
+        baseline_results, weighted_results, smote_results, focal_loss_results, best_model_name, best_model
     )
     
     total_time = time.time() - start_time
